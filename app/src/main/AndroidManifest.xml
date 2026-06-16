@@ -31,15 +31,6 @@
             android:name=".ui.ConvertActivity"
             android:exported="false"
             android:parentActivityName=".ui.MainActivity" />
-
-        <!--
-        ═══ AdMob — uncomment when ready ═══════════════════════════════════════
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX"/>
-        ════════════════════════════════════════════════════════════════════════
-        -->
-
     </application>
 
 </manifest>

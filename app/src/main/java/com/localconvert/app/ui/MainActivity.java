@@ -71,18 +71,4 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.fragmentContainer, fragment)
                 .commit();
     }
-
-    // ── AdMob setup (uncomment when ready) ──────────────────────────────────
-    // private AdView mAdView;
-    // private void initAds() {
-    //     MobileAds.initialize(this, initializationStatus -> {});
-    //     mAdView = new AdView(this);
-    //     mAdView.setAdUnitId("ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX");
-    //     mAdView.setAdSize(AdSize.BANNER);
-    //     ViewGroup adContainer = findViewById(R.id.adBannerPlaceholder);
-    //     adContainer.addView(mAdView);
-    //     adContainer.setVisibility(View.VISIBLE);
-    //     mAdView.loadAd(new AdRequest.Builder().build());
-    // }
-    // ────────────────────────────────────────────────────────────────────────
 }

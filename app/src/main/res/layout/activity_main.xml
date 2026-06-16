@@ -81,18 +81,12 @@
                 android:layout_height="match_parent" />
 
         </FrameLayout>
-
-        <!-- ══ AdMob Banner placeholder ══════════════════════════════════════
-             When ready: replace this View with com.google.android.gms.ads.AdView
-             and call adView.loadAd(new AdRequest.Builder().build())
-             ════════════════════════════════════════════════════════════════ -->
         <View
             android:id="@+id/adBannerPlaceholder"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="?attr/colorSurfaceVariant"
             android:visibility="gone" />
-        <!--  Set visibility="visible" and swap tag when AdMob is enabled  -->
 
     </LinearLayout>
 

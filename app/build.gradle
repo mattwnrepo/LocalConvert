@@ -33,11 +33,4 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.cardview:cardview:1.0.0'
-
-    // ─── AdMob (uncomment when ready to monetize) ───────────────────────────
-    // implementation 'com.google.android.gms:play-services-ads:23.0.0'
-    // Add to AndroidManifest.xml when enabling:
-    //   <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
-    //              android:value="ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX"/>
-    // ────────────────────────────────────────────────────────────────────────
 }

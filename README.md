@@ -44,15 +44,6 @@ Output lands in `app/build/outputs/apk/release/app-release.apk`
 
 ---
 
-## Adding AdMob (when ready)
-
-1. In `app/build.gradle`, uncomment the AdMob dependency line
-2. In `AndroidManifest.xml`, uncomment the `<meta-data>` block and fill in your App ID
-3. In `MainActivity.java`, uncomment and call `initAds()`
-4. In `activity_main.xml`, change `adBannerPlaceholder` visibility to `visible` and swap the `<View>` tag for `<com.google.android.gms.ads.AdView>`
-
----
-
 ## Adding new conversion categories (Video, Audio, Ebook)
 
 1. Create `VideoConvertFragment.java` (etc.) in `ui/`
