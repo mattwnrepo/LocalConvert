@@ -32,5 +32,4 @@
             android:exported="false"
             android:parentActivityName=".ui.MainActivity" />
     </application>
-
 </manifest>
