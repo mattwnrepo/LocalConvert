@@ -1,0 +1,2 @@
+rootProject.name = "LocalConvert"
+include ':app'

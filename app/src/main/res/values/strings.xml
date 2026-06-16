@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalConvert</string>
+    <string name="pick_file">Pick a file</string>
+    <string name="convert">Convert</string>
+    <string name="output_format">Output format</string>
+    <string name="converting">Converting…</string>
+    <string name="done">Done</string>
+    <string name="share">Share</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="tap_to_pick">Tap to pick an image</string>
+    <string name="select_format">Select format</string>
+    <string name="category_image">Image</string>
+    <string name="category_video">Video</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_ebook">Ebook</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="conversion_success">Saved to Downloads</string>
+    <string name="conversion_failed">Conversion failed</string>
+</resources>
